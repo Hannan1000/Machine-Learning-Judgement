@@ -205,7 +205,7 @@ input_text = """
 df_case_data = process_cases(input_text)
 
 # Change output path to a valid directory on your local machine
-output_file = "C:/Users/xiHawks 1002/Documents/legal_judgments.csv"
+output_file = "C:/Users/Documents/legal_judgments.csv"
 
 # Save the results to a CSV file
 df_case_data.to_csv(output_file, index=False)
